@@ -1,0 +1,23 @@
+{
+  "name": "unity_node_server",
+  "version": "1.0.0",
+  "description": "Unity game server with nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jtwbm/unity_node_server.git"
+  },
+  "author": "jtwbm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jtwbm/unity_node_server/issues"
+  },
+  "homepage": "https://github.com/jtwbm/unity_node_server#readme",
+  "dependencies": {
+    "shortid": "^2.2.16",
+    "ws": "^8.11.0"
+  }
+}
