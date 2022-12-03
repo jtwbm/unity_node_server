@@ -4,7 +4,7 @@
   "description": "Unity game server with nodejs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "npx eslint index.js classes/**"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,13 @@
     "dotenv": "^16.0.3",
     "shortid": "^2.2.16",
     "ws": "^8.11.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.29.0",
+    "eslint-config-semistandard": "^17.0.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.5.1",
+    "eslint-plugin-promise": "^6.1.1"
   }
 }
