@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/jtwbm/unity_node_server#readme",
   "dependencies": {
+    "dotenv": "^16.0.3",
     "shortid": "^2.2.16",
     "ws": "^8.11.0"
   }
